@@ -10,7 +10,7 @@ def sort_dict_alphabetically():
     sorted_data = sorted(data.items(), key=lambda x: x[0])
 
     # write sorted dictionary to new file
-    with open('sorted_data.json', 'w', encoding='utf-8') as f:
+    with open('new_data.json', 'w', encoding='utf-8') as f:
         json.dump(dict(sorted_data), f, ensure_ascii=False, indent=2)
 
 
