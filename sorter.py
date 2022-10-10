@@ -2,7 +2,7 @@ import json
 
 
 def sort_dict():
-    query = 'гар'
+    query = 'сто'
     # open new_data.json file as python dictionary
     with open('new_data.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
